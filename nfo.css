@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'ConsoleP';
+  src: url('./fonts/luconP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+div#dlg_nfo div.dlg-header {
+	background-image: url(./images/nfo.png)
+}
+#dlg_nfo #nfo_text {
+	overflow: scroll;
+	height: 400px;
+}
+#dlg_nfo #nfo_text pre {
+	font-family: "ConsoleP", "Courier New", Courier, monospace;
+	font-size: 11px;
+}
