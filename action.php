@@ -97,4 +97,4 @@ function viewNFO() {
 	return false;
 }
 
-cachedEcho(viewNFO(),"text/x-nfo");
+cachedEcho::send(viewNFO(),"text/x-nfo");
